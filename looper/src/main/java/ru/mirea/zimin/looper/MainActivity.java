@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view) {
         Message msg = new Message();
         Bundle bundle = new Bundle();
-        bundle.putString("KEY", "19, student of mirea");
+        bundle.putString("KEY", "21, student of mirea");
         msg.setData(bundle);
         if (myLooper != null) {
             myLooper.handler.sendMessage(msg);
